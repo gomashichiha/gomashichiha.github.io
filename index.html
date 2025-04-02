@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>胡麻七八のページ</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body id="page">
+<!-- ▼全体の囲み▼ -->
+<div id="wrapper">
+
+<!-- ▼ヘッダ▼ -->
+<header>
+<div id="header-inner">
+<!-- サイト名 -->
+<h1>胡麻七八のページ</h1>
+ごましちは
+</div>
+
+<!-- ▼メニュー▼ -->
+<div id="menu">
+<nav>
+<ul>
+
+<!-- インラインフレーム内に開く時はtarget="if" -->
+<li><a href="main.html" target="if">トップ</a>
+<li><a href="bbs.html" target="if">掲示板</a>
+<li><a href="link.html" target="if">リンク</a>
+
+</ul>
+</nav>
+</div>
+<!-- ▲メニュー▲ -->
+
+</header><!-- ▲ヘッダ▲ -->
+
+<!-- ▼中央▼ -->
+<div id="contents">
+<div class="if-container"><iframe src="main.html" name="if" title="iframe" class="ifrm"></iframe></div>
+</div><!-- ▲中央▲ -->
+
+<!-- ▼フッタ▼ -->
+<footer>
+<div id="footer-inner">
+<a href="http://foollovers.com" target="_blank">designed</a>
+</div></footer><!-- ▲フッタ▲ -->
+
+</div><!-- ▲全体の囲み▲ -->
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/jquery.height.js"></script>
+
+</body>
+</html>
