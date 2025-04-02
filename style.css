@@ -18,7 +18,7 @@ body{
 background:#fff;/* インラインフレーム内背景色 */
 color:#400;/* インラインフレーム内文字色 */
 font-family:Verdana,Roboto,'游ゴシック','Yu Gothic','游ゴシック体','YuGothic','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
-font-size:1.2em;/* 文字の大きさ */
+font-size:1.6em;/* 文字の大きさ */
 text-align:left;
 letter-spacing:.1em;
 line-height:1.5;
