@@ -1,0 +1,1 @@
+# gomashichiha.github.io
